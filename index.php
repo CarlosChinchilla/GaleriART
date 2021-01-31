@@ -13,13 +13,23 @@
 
 <body>
 
-<?php
-include("includes/header.php");
-?>
+<div class="container">
 
-<nav></nav>
+    <div class="main">
 
-<section></section>
+        <?php
+        include("includes/header.php");
+        ?>
+
+        <?php
+        include("includes/nav.php");
+        ?>
+
+        <section></section>
+
+    </div>
+
+</div>
 
 <?php
 include("includes/footer.php");
