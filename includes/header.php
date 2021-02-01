@@ -1,10 +1,23 @@
 <header>
 
-    <a href="index.php"><img src="imgFront/GaleriART.png"></a>
+    <!-- MENU VISTA MOVIL -->
+    <div id="movMenu">
+        <img class="logo" src="img/burg.png">
+    </div>
 
-    <div class="userInfo">
-        <span>Iniciar sesión</span>
-        <div class="iconUser"><img class="avatar" src="imgFront/user.png"><img class="messages" src="imgFront/message.png"></div>
+    <!-- LOGO -->
+    <a href="index.php"><img src="img/GaleriART.png"></a>
+
+    <!-- INICIAR SESION -->
+    <div id="iniciarSesion">
+        <span>Iniciar Sesion</span>
+        <div class="iconUser"><img class="avatar" src="img/user.png"></div>
+    </div>
+
+    <!-- MENU USER -->
+    <div id="userInfo">
+        <span>Nombre Usuario</span>
+        <div class="iconUser"><img class="avatar" src="img/user.png"><img class="messages" src="img/message.png"><img class="arrow" src="img/arrowDown.png"></div>
     </div>
 
 </header>
